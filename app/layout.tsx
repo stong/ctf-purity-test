@@ -20,19 +20,17 @@ export const metadata: Metadata = {
     description: "The CTF Purity Test is an assessment based on one's experiences playing CTFs. The lower your score, the more cursed you are.",
     images: [
       {
-        url: "/pepega.png",
-        width: 1200,
-        height: 630,
+        url: "https://ctfpuritytest.com/pepega.png",
         alt: "CTF Purity Test",
       },
     ],
     type: "website",
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "CTF Purity Test",
     description: "The CTF Purity Test is an assessment based on one's experiences playing CTFs. The lower your score, the more cursed you are.",
-    images: ["/pepega.png"],
+    images: ["https://ctfpuritytest.com/pepega.png"],
   },
 };
 
