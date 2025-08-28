@@ -41,6 +41,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script defer data-domain="ctfpuritytest.com" src="https://plausible.io/js/script.js"></script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
