@@ -151,6 +151,9 @@ function ScorePageContent() {
               {content.score.shareButton}
             </button>
           </div>
+          <div className="mt-2">
+            <a className="text-sm text-gray-700" href="https://github.com/stong/ctf-purity-test">GitHub</a>
+          </div>
         </div>
       </div>
     </div>

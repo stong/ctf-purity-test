@@ -88,6 +88,7 @@ export default function Home() {
 
         <footer className="text-center mt-6 text-gray-500 text-sm">
           <p>{content.main.footer}</p>
+          <a href="https://github.com/stong/ctf-purity-test">View me on GitHub</a>
         </footer>
       </div>
     </div>
