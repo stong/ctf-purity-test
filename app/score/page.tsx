@@ -135,7 +135,10 @@ function ScorePageContent() {
                   }
                 }
                 
-                if (navigator.share) {
+                // Only use navigator.share on mobile devices
+                const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+                
+                if (isMobile && navigator.share) {
                   navigator.share({
                     title: content.score.shareTitle,
                     text: shareText,
