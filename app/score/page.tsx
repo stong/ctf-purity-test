@@ -41,7 +41,7 @@ function ScorePageContent() {
     if (score >= 70) return content.scoreMessages.prettyPure;
     if (score >= 50) return content.scoreMessages.moderate;
     if (score >= 30) return content.scoreMessages.experienced;
-    if (score >= 10) return content.scoreMessages.veryExperienced;
+    if (score >= 15) return content.scoreMessages.veryExperienced;
     return content.scoreMessages.veteran;
   };
 

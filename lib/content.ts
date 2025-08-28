@@ -2,7 +2,7 @@ export const content = {
   title: "CTF Purity Test",
   
   main: {
-    subtitle: "Check off everything you have done.",
+    subtitle: "Check off everything you (optionally, your team) has done.",
     description: "Caution: This is not a bucket list. Completion of all items on this test will likely result in disqualification.",
     submitButton: "Submit",
     resetButton: "Reset",
@@ -32,11 +32,11 @@ export const content = {
   },
 
   scoreMessages: {
-    veryPure: "Very pure! You haven't experienced much yet.",
-    prettyPure: "Pretty pure! You've dipped your toes in the water.",
-    moderate: "Moderately experienced. You've had some fun!",
-    experienced: "Quite experienced! You've explored quite a bit.",
-    veryExperienced: "Very experienced! You've seen and done a lot.",
-    veteran: "Wow! You've really lived life to the fullest!"
+    veryPure: "You don't really play CTFs. 🫥",
+    prettyPure: "You've played a few CTFs here and there, but it's not like they're a huge part of your life. 🤓",
+    moderate: "You've played a decent amount of CTFs. You generally like to keep things above board. Let's play fair and square! 😇",
+    experienced: "You've played a lot of CTFs, and you've seen (and participated in) your fair share of antics and cursed tactics. Good for you. 🙃",
+    veryExperienced: "CTFs are a big part of your life, and you have the stories to show for it. Just don't go overboard 😉",
+    veteran: "You are a menace to the CTF community. 💀"
   }
 };
